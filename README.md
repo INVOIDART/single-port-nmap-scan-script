@@ -1,5 +1,4 @@
-How to use:
-
+ 
 How to use:
 
 Save the script: Save the code above as a .sh file (e.g., nmap_scan.sh).
@@ -29,7 +28,7 @@ Common Options:
 -sS: SYN scan (stealth scan).
 Important Security Considerations:
 
-Ethical Hacking: Only use this script on networks and systems you have permission to scan. Unauthorized scanning is illegal and unethical.
+ 
 eval: Be extremely cautious when using eval. It executes a string as a command. In this script, the command is built from user-selected options, which makes it somewhat safer, but it's still good practice to be aware of the risks. Avoid using eval if there's any way to do so.
 Nmap Output: Nmap scans can generate a lot of output. Consider redirecting the output to a file for later analysis: nmap $OPTIONS $TARGET_IP > scan_results.txt
 Further Improvements:
